@@ -1,0 +1,177 @@
+:root {
+    --text-color: white;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+}
+
+/* Navbar Style */
+
+
+* {
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-weight: 700; /* Ketebalan huruf pada brand/logo */
+    font-size: 20px; /* Ukuran font pada brand/logo */
+    color: black; /* Warna teks brand/logo */
+}
+
+.nav-link {
+    font-size: 16px; /* Ukuran font pada tautan */
+    color: black; /* Warna teks tautan */
+}
+
+.nav-link.active {
+    font-weight: 700; /* Ketebalan huruf tautan yang aktif */
+}
+
+.follow {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+/* Navbar End Style */
+
+
+/* Home Section style untuk style css di bagian section home page saya */
+.home-img {
+    margin: 100px 100px 100px 100px; /* Spasi margin pada gambar */
+}
+
+.custom-image {
+    max-width: 50%; /* Lebar maksimum gambar */
+    height: auto; /* Tinggi gambar menyesuaikan */
+    margin-top: 20px; /* Spasi atas gambar */
+}
+
+
+@media (max-width: 768px) {
+    .custom-image {
+      max-width: 50%;
+      height: auto;
+      margin-top: 0;
+    }
+  }
+
+  .btn {
+    border-radius: 12px; /* Sudut bulat tombol */
+    transition-duration: 0.4s; /* Durasi transisi saat hover */
+    size: 20px; /* Ukuran font tombol */
+    margin-top: 35px; /* Spasi atas tombol */
+}
+
+.btn:hover {
+    background-color: orange; /* Warna latar belakang tombol saat hover */
+    color: white; /* Warna teks tombol saat hover */
+}
+
+
+/* about Section style css saya untuk mengatur di bagian about page / tentang saya*/
+#about {
+    padding: 100px 0;
+}
+
+.about-judul {
+    margin-bottom: 120px;
+}
+
+.about-img {
+    margin-bottom: 50px;
+}
+
+.about-text h2 {
+    color: black;
+    margin-bottom: 50px;
+}
+
+#about p {
+    color: black;
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+
+/* hobby Start untuk tyling di bagian section hobby agar lebih bagus */
+
+.hobby-text {
+    color: var(--text-color);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--text-color);
+}
+
+.card-img-top {
+    width: 104.161px;
+    height: 118.125px;
+}
+
+#hobby {
+    padding: 80px 0;
+    background-color: #191D23;
+}
+
+.card {
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    cursor: pointer;
+    margin: 15px; 
+}
+
+@media (max-width: 992px) {
+    #hobby .card {
+      max-width: calc(50% - 20px); /* Untuk tampilan laptop, setiap kartu menempati 50% lebar container dengan ruang 10px di sisi kanan dan kiri */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #hobby .card {
+      max-width: 100%; /* Di perangkat mobile, kartu akan mengisi lebar container */
+    }
+  }
+
+.card:hover {
+    transform: scale(1.05);
+    color: black;
+}
+
+.container-fluid {
+    background-position: center;
+    background-size: cover;
+}
+
+.paragraf-hobby {
+    color: var(--text-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    line-height: normal;
+    width: 70%;
+    color: var(--text-color);
+}
+
+.card-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+#hobby h4 {
+    font-weight: 700; /* Ketebalan huruf pada judul */
+    font-size: 16px; /* Ukuran font pada judul */
+    font-family: 'Poppins'; /* Jenis font */
+}
